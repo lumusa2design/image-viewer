@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="55017a8d-8eac-470f-a242-d8db94cb4b3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-viewer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/ImageDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/ImageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/ImagePresenter.java" afterDir="false" />
+    <list default="true" id="55017a8d-8eac-470f-a242-d8db94cb4b3e" name="Changes" comment="Adding images">
+      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/SwingImageDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/mocks/MockImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/mocks/MockImageLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -47,6 +47,11 @@
     "onboarding.tips.debug.path": "C:/Users/Usuario/Desktop/Katas/image-viewer/image-viewer/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="is2.ulpgc.imageviewer.swing" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,6 +68,37 @@
       <option name="presentableId" value="Default" />
       <updated>1705602755751</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit, creation of the elements to define and load an image">
+      <option name="closed" value="true" />
+      <created>1705603271539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705603271539</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create class to load Image or colors">
+      <option name="closed" value="true" />
+      <created>1705604984547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705604984547</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding images">
+      <option name="closed" value="true" />
+      <created>1705605009997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705605009997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit, creation of the elements to define and load an image" />
+    <MESSAGE value="Create class to load Image or colors" />
+    <MESSAGE value="Adding images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding images" />
   </component>
 </project>
