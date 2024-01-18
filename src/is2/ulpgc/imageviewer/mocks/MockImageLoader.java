@@ -1,9 +1,8 @@
 package is2.ulpgc.imageviewer.mocks;
 
-import is2.ulpgc.imageviewer.ImageLoader;
+import is2.ulpgc.imageviewer.model.ImageLoader;
 
-import javax.swing.ImageIcon;
-import is2.ulpgc.imageviewer.Image;
+import is2.ulpgc.imageviewer.model.Image;
 public class MockImageLoader implements ImageLoader {
     private final String[] ids = new String[]{"red", "green", "blue"};
 

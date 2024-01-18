@@ -1,7 +1,7 @@
 package is2.ulpgc.imageviewer.swing;
 
-import is2.ulpgc.imageviewer.Image;
-import is2.ulpgc.imageviewer.ImagePresenter;
+import is2.ulpgc.imageviewer.model.Image;
+import is2.ulpgc.imageviewer.presenter.ImagePresenter;
 import is2.ulpgc.imageviewer.mocks.MockImageLoader;
 
 public class Main {

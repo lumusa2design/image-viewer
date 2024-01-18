@@ -1,5 +1,7 @@
-package is2.ulpgc.imageviewer;
-import is2.ulpgc.imageviewer.ImageDisplay.*;
+package is2.ulpgc.imageviewer.presenter;
+import is2.ulpgc.imageviewer.view.ImageDisplay;
+import is2.ulpgc.imageviewer.view.ImageDisplay.*;
+import is2.ulpgc.imageviewer.model.Image;
 
 public class ImagePresenter {
     private final ImageDisplay display;

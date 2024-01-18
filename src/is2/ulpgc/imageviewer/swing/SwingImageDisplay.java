@@ -1,8 +1,6 @@
 package is2.ulpgc.imageviewer.swing;
 
-import is2.ulpgc.imageviewer.ImageDisplay;
-import is2.ulpgc.imageviewer.Image; // Importa la nueva clase Image
-import is2.ulpgc.imageviewer.mocks.MockImageLoader; // Importa la clase MockImageLoader
+import is2.ulpgc.imageviewer.view.ImageDisplay;
 
 import javax.swing.*;
 import java.awt.*;

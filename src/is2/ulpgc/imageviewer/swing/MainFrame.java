@@ -8,9 +8,29 @@ public class MainFrame extends JFrame {
 
     public MainFrame()  {
         this.setTitle("Image Viewer");
-        this.setSize(800,600);
+        this.setSize(800, 600);
+        this.setLayout(new BorderLayout());
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        JMenuBar menuBar = new JMenuBar();
+        JMenu fileMenu = new JMenu("File");
+        JMenuItem exitMenuItem = new JMenuItem("Exit");
+        exitMenuItem.addActionListener(e -> System.exit(0));
+
+        fileMenu.add(exitMenuItem);
+        menuBar.add(fileMenu);
+        this.setJMenuBar(menuBar);
+
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        this.setResizable(true);
+
         this.add(createImageDisplay());
     }
 
@@ -23,4 +43,5 @@ public class MainFrame extends JFrame {
 
         this.imageDisplay = display;
         return display;
-    }}
+    }
+}

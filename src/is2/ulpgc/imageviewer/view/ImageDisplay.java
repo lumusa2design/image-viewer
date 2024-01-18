@@ -1,4 +1,4 @@
-package is2.ulpgc.imageviewer;
+package is2.ulpgc.imageviewer.view;
 
 public interface ImageDisplay {
     void paint(String id, int offset);

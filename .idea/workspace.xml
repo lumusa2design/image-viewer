@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55017a8d-8eac-470f-a242-d8db94cb4b3e" name="Changes" comment="Adding images">
-      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/SwingImageDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/Image.java" afterDir="false" />
+    <list default="true" id="55017a8d-8eac-470f-a242-d8db94cb4b3e" name="Changes" comment="Deleting try of adding images because is2.ulpgc.ImageViewer, has an incompatible name and causes conflict, create display settings with Java Swing">
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/model/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/ImageDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/view/ImageDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/model/ImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/ImagePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/presenter/ImagePresenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/mocks/MockImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/mocks/MockImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/SwingImageDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/is2/ulpgc/imageviewer/swing/SwingImageDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +94,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705605009997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleting try of adding images because is2.ulpgc.ImageViewer, has an incompatible name and causes conflict, create display settings with Java Swing">
+      <option name="closed" value="true" />
+      <created>1705606968840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705606968840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit, creation of the elements to define and load an image" />
     <MESSAGE value="Create class to load Image or colors" />
     <MESSAGE value="Adding images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding images" />
+    <MESSAGE value="Deleting try of adding images because is2.ulpgc.ImageViewer, has an incompatible name and causes conflict, create display settings with Java Swing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleting try of adding images because is2.ulpgc.ImageViewer, has an incompatible name and causes conflict, create display settings with Java Swing" />
   </component>
 </project>
